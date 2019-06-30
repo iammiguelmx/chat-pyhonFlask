@@ -11,7 +11,7 @@
 ## Install
 
 ```sh
-npm install
+pip3 install flask-socketio
 ```
 
 ## Author
