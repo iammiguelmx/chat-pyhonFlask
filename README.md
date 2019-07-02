@@ -18,7 +18,7 @@ pip3 install flask-socketio
 
 👤 **Miguel Camacho**
 
-* Twitter: [@el miguelmx](https://twitter.com/el miguelmx)
+* Twitter: [@el miguelmx](https://twitter.com/elmiguelmx)
 * Github: [@iammiguelmx](https://github.com/iammiguelmx)
 
 ## Show your support
