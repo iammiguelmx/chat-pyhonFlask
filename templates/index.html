@@ -2,23 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Messajes</title>
   </head>
+  <script src="../static/js/jquery-3.3.1.min.js"></script>
+  <script src="../static/js/socket.io.js"></script>
   <body>
 
     <ul id="messages"></ul>
     <input id="myMessage" type="text">
     <button id="send">Send</button>
-
-    <script
-      src="http://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
   <script>
+
     const socket = io()
-
-
     socket.emit('message', 'hello')
 
     socket.on('message', function(msg) {
